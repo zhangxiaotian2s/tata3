@@ -5,6 +5,8 @@ li {list-style: none;}
 .color_red{ color: #B92C28;}
 .block{ display: block;}
 .p_100{ width: 100%; display: block;}
+
+.blank10{ height: 10px; overflow: hidden;} 
 .blank20{ height: 20px; overflow: hidden;} 
 .p_r{ position: relative;}
 .p_a{ position: absolute;}
@@ -20,14 +22,14 @@ li {list-style: none;}
 
 
 
-.content{ background-size: cover; background-repeat: repeat-y;}
+.content{ background-size:contain; background-repeat: repeat-y;}
 
-.content_nr{ width: 73.6%; overflow: hidden;  background: #ffe9e9; margin: 0 auto;}
+.content_nr{ width: 91.666%; overflow: hidden;  padding: 2% 0px;  margin: 0 auto;}
 
 .lm_nav img{ top: 0px; left: 0px;}
-.nav_bk{ width: 73.6%; overflow: hidden;  background: #ffe9e9; margin: 0 auto;}
+.nav_bk{ width: 91.666%; overflow: hidden;   margin: 0 auto;}
 .bkm{width: 100%;}
-.bkm li{ width:46%; margin: 2% 2%; float: left;}
+.bkm li{ width:46%; margin: 0% 2%; float: left;}
 
 
 
@@ -49,4 +51,4 @@ li {list-style: none;}
 #sub_btn{ display: block; width: 30%; margin: 0 auto;}
 #sub_btn img{ width: 100%; margin:0 auto; }
 
-.wxts{width:70% ; font-size: 12px; margin: auto;}
+.wxts{width:91.66% ; font-size: 12px; margin: auto;}
